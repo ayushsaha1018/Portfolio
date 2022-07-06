@@ -21,7 +21,7 @@
   --body-color: HSL(var(--hue-color), 60%, 99%);
   --container-color: #fff;
   --scroll-bar-color: HSL(var(--hue-color), 12%, 90%);
-  --scroll-thumb-color: HSL(var(--hue-color), 12%, 80%);
+  --scroll-thumb-color: HSL(var(--hue-color), 12%, 80%); 
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -161,8 +161,8 @@ img {
 /*==================== LAYOUT ====================*/
 .container {
   max-width: 768px;
-  margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
+  margin-left: var(--mb-1-5);
 }
 
 .grid {
